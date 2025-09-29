@@ -8,7 +8,7 @@ from tqdm import tqdm
 n_dataset = int(sys.argv[1])
 DESTINATION = sys.argv[2]
 
-baseURL = "https://www.thphys.uni-heidelberg.de/~plehn/pics/"
+baseURL = "https://www.thphys.uni-heidelberg.de/~plehn/data/"
 if n_dataset == 1:
     URL = "tutorial-2-data.zip"
     DESCRIPTION = "amplitude regression"
